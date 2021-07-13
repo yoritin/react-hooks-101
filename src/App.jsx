@@ -9,7 +9,7 @@ const App = () => {
   const increment2 = () => setCount((previousCount) => previousCount + 1)
   const decrement2 = () => setCount((previousCount) => previousCount - 1)
 
-  const reset = () => setCount(count - count)
+  const reset = () => setCount(0)
 
   return (
     <>
